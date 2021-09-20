@@ -1,0 +1,49 @@
+  /* Задание стиля подвала */
+  footer 
+  { 
+  background-color: black;/* Цвет подвала */
+  color: white; /* Цвет текста */
+  height: 40px; /* Высота подвала */
+  bottom: 0; /* Позиция снизу на сайте */
+  position: static; /* Фиксирование заданной позиции подвала */
+  width: 100%; /* Ширина подвала */
+  text-align: center;
+  }
+
+  /* Задание стиля сайта */
+  body 
+{ 
+  background-color: #171717; /* Цвет фона сайта */
+  color: white; /* Цвет текста */
+  text-align: justify;
+}
+
+  /* Задание стилей для меню */
+#menu 
+{ 
+  /* Сброс стилей по умолчанию */
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Вывод списка в линию */
+#menu li { display: inline; }
+
+/* Стили самого меню */
+#menu 
+{
+  width: 100%; /* Ширина меню */
+  text-align: center;
+  background-color: #0F4C75; /* Цвет меню */
+}
+
+/* Стили текста */
+#menu a 
+{ 
+  padding: 0 6%; /* Отступ */
+  color: white;
+  text-decoration: none; /* Чистый текст без декораций и стилей */
+  display: inline-block;
+  width: 100px;
+}
